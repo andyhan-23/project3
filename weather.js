@@ -1,4 +1,4 @@
-const api_key = "7d82b30ab1937ccf6f6b6259a3a42391";
+const api_key = "";
 
 function ongeook(position){
     const lat = position.coords.latitude;
