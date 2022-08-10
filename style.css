@@ -1,0 +1,93 @@
+.hidden{
+    display: none;
+}
+#image{
+    position: relative;
+}
+#image>img{
+    width: 1512px;
+    height:900px;
+    
+}
+#clock{
+    color:red;
+    position: absolute;
+    font-size: 40px;
+    right: 50px;
+    z-index: 1;
+}
+#name{
+    font-size: 30px;
+    position: absolute;
+    z-index: 1;
+    left: 600px;
+    top: 800px;
+    text-align: center;
+   
+}
+#access{
+    position: absolute;
+    z-index: 1;
+    left: 600px;
+    top: 500px;
+    display: none;
+}
+#greeting{
+    position: absolute;
+    z-index: 1;
+    left: 600px;
+    top: 600px;
+    color: green;
+    font-size: 70px;
+
+
+}
+
+#todo-form{
+    position: absolute;
+    z-index: 1;
+    left: 680px;
+    top:300px;
+    font-size: 30px;
+
+}
+#todo-list{
+    position: absolute;
+    z-index: 1;
+    left: 680px;
+    top: 200px;
+    color: red;
+    list-style-type: none;
+}
+
+#quote{
+    position: absolute;
+    z-index: 1;
+    color:burlywood;
+    font-size: 30px;
+    white-space: nowrap;
+}
+#author{
+    position: absolute;
+    z-index: 1;
+    color:antiquewhite;
+    font-size: 20px;
+    top:50px;
+}
+#weather{
+    position: absolute;
+    z-index: 1;
+    color: brown;
+    right:0px;
+}
+html{
+    background-size: cover;
+}
+body{
+    
+    margin: 0px;
+
+
+    width:50px;
+    height: 50px;
+}
